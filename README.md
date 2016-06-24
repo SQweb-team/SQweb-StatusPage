@@ -1,1 +1,4 @@
-Visit this site at https://SQweb-team.github.io/SQweb-StatusPage/
+SQweb - Status Page
+===
+
+View this site at http://status.sqweb.com.
