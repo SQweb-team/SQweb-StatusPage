@@ -1,7 +1,7 @@
 SQweb - Status Page
 ===
 
-**View this site at http://status.sqweb.com.**
+**View this site at https://status.sqweb.com.**
 
 This is a static status page, based on [this repo](https://github.com/jayfk/statuspage).
 
