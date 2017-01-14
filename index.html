@@ -30,9 +30,11 @@
 				<p>If you are experiencing any issues with SQweb, don't hesitate to get in touch with us at hello@sqweb.com and we'll get back to you as soon as we can.</p>
 
 				
-					<div class="panel operational">
-						All systems operational.
+					
+					<div class="panel investigating">
+						Investigating on Multipass.net.
 					</div>
+					
 				
 
 				<h4>Systems</h4>
@@ -55,7 +57,7 @@
 					</li>
 					
 					<li>
-						Multipass.net <span class="status operational">operational</span>
+						Multipass.net <span class="status investigating">investigating</span>
 					</li>
 					
 					<li>
@@ -66,6 +68,23 @@
 
 				<h4>Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date">2017-01-14 11:40:36 GMT</span>
+
+						
+							<span class="label investigating float-right">investigating</span>
+						
+						
+							<span class="label system float-right">Multipass.net</span>
+						
+						<hr/>
+
+						<span class="title">Signup issues with Google Connect</span>
+						<p><p>Signup via Google Connect is broken at the moment. We are currently investigating.</p>
+</p>
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date">2016-10-31 12:52:27 GMT</span>
@@ -86,64 +105,6 @@
 							<p>A configuration change in our deployment process created a delay with some purges. Purges are now back to normal.</p>
 
 							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2016-09-28 09:59:26 GMT</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">Analytics</span>
-						
-						<hr/>
-
-						<span class="title">Unavailable Analytics Collector</span>
-						<p><p>We have a confirmed network failure on our Analytics collection system.</p>
-
-<p>Our team is investigating.</p>
-</p>
-						
-							<p><em>Update 2016-09-28 10:19:36</em><br/>
-							<p>Our failover system is now handling the requests properly.</p>
-
-<p>Our initial assessment indicates a loss of analytics collection between 9:50AM UTC and 10:14AM UTC.</p>
-
-							</p>
-						
-							<p><em>Update 2016-09-28 10:46:10</em><br/>
-							<p>Further analysis and checks with our host show that the root cause is in fact not a network failure, but a maintenance operation on their compute cluster that inadvertently stopped our main analytics node.</p>
-
-							</p>
-						
-							<p><em>Update 2016-09-28 11:49:25</em><br/>
-							<p>Publisher dashboards may show slighlty outdated information while we consolidate and process data from the past two hours.</p>
-
-							</p>
-						
-							<p><em>Update 2016-09-28 13:54:47</em><br/>
-							<p>Everything is back to normal now, with a dip in reported data between 9:50AM UTC and 10:14 UTC. </p>
-
-							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2016-08-16 13:28:16 GMT</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">Analytics</span>
-						
-						<hr/>
-
-						<span class="title">Analytics collector timing out</span>
-						<p><p>Due to maintenance on our database cluster, we're seeing timeouts on analytics calls.</p>
-</p>
 						
 					</div>
 					
