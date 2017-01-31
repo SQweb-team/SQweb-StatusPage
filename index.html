@@ -30,9 +30,11 @@
 				<p>If you are experiencing any issues with SQweb, don't hesitate to get in touch with us at hello@sqweb.com and we'll get back to you as soon as we can.</p>
 
 				
-					<div class="panel operational">
-						All systems operational.
+					
+					<div class="panel degraded performance">
+						Degraded performance on CDN.
 					</div>
+					
 				
 
 				<h4>Systems</h4>
@@ -47,7 +49,7 @@
 					</li>
 					
 					<li>
-						CDN <span class="status operational">operational</span>
+						CDN <span class="status degraded performance">degraded performance</span>
 					</li>
 					
 					<li>
@@ -68,6 +70,23 @@
 				
 					
 					<div class="incident">
+						<span class="date">2017-01-31 15:38:55 GMT</span>
+
+						
+							<span class="label degraded performance float-right">degraded performance</span>
+						
+						
+							<span class="label system float-right">CDN</span>
+						
+						<hr/>
+
+						<span class="title">Load failures in western europe</span>
+						<p><p>Our CDN provider, Cloudflare, is having issues in their London point of presence. Some assets may fail to load in western europe, or return an SSL certificate failure, resulting in broken Multipass buttons. We're monitoring closely.</p>
+</p>
+						
+					</div>
+					
+					<div class="incident">
 						<span class="date">2017-01-14 11:40:36 GMT</span>
 
 						
@@ -84,28 +103,6 @@
 						
 							<p><em>Update 2017-01-16 09:47:30</em><br/>
 							<p>We tracked the issue down and deployed the required fix.</p>
-
-							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2016-10-31 12:52:27 GMT</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">CDN</span>
-						
-						<hr/>
-
-						<span class="title">Caching Issues - Purge Delays</span>
-						<p><p>We have noticed delays when purging our edge caches. We are investigating.</p>
-</p>
-						
-							<p><em>Update 2016-10-31 13:33:00</em><br/>
-							<p>A configuration change in our deployment process created a delay with some purges. Purges are now back to normal.</p>
 
 							</p>
 						
