@@ -30,16 +30,18 @@
 				<p>If you are experiencing any issues with SQweb, don't hesitate to get in touch with us at hello@sqweb.com and we'll get back to you as soon as we can.</p>
 
 				
-					<div class="panel operational">
-						All systems operational.
+					
+					<div class="panel degraded performance">
+						Degraded performance on API, Multipass.net, SQweb.com.
 					</div>
+					
 				
 
 				<h4>Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						API <span class="status operational">operational</span>
+						API <span class="status degraded performance">degraded performance</span>
 					</li>
 					
 					<li>
@@ -55,17 +57,40 @@
 					</li>
 					
 					<li>
-						Multipass.net <span class="status operational">operational</span>
+						Multipass.net <span class="status degraded performance">degraded performance</span>
 					</li>
 					
 					<li>
-						SQweb.com <span class="status operational">operational</span>
+						SQweb.com <span class="status degraded performance">degraded performance</span>
 					</li>
 					
 				</ul>
 
 				<h4>Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date">2017-06-21 12:46:42 GMT</span>
+
+						
+							<span class="label degraded performance float-right">degraded performance</span>
+						
+						
+							<span class="label system float-right">API</span>
+						
+							<span class="label system float-right">Multipass.net</span>
+						
+							<span class="label system float-right">SQweb.com</span>
+						
+						<hr/>
+
+						<span class="title">Database Maintenance</span>
+						<p><p>We're adding capacity on our database tier.</p>
+
+<p>Brief connectivity issues may occur.</p>
+</p>
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date">2017-04-10 13:42:22 GMT</span>
@@ -106,74 +131,6 @@
 						
 							<p><em>Update 2017-04-06 14:22:15</em><br/>
 							<p>Testing.</p>
-
-							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2017-02-01 17:40:11 GMT</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">CDN</span>
-						
-							<span class="label system float-right">Multipass.net</span>
-						
-						<hr/>
-
-						<span class="title">Temporary HTTPS errors</span>
-						<p><p>We're deploying an alternate CDN for Multipass. You may see SSL certificate errors for a few minutes while our provider deploys the zone globally.</p>
-</p>
-						
-							<p><em>Update 2017-02-01 17:56:12</em><br/>
-							<p>Deployment complete. Our testing shows nominal behaviour.</p>
-
-							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2017-01-31 15:38:55 GMT</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">CDN</span>
-						
-						<hr/>
-
-						<span class="title">Load failures in western europe</span>
-						<p><p>Our CDN provider, Cloudflare, is having issues in their London point of presence. Some assets may fail to load in western europe, or return an SSL certificate failure, resulting in broken Multipass buttons. We're monitoring closely.</p>
-</p>
-						
-							<p><em>Update 2017-01-31 22:14:44</em><br/>
-							<p>We're serving affected files from an alternate endpoint. There should be no service disruption for users.</p>
-
-							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2017-01-14 11:40:36 GMT</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">Multipass.net</span>
-						
-						<hr/>
-
-						<span class="title">Signup issues with Google Connect</span>
-						<p><p>Signup via Google Connect is broken at the moment. We are currently investigating.</p>
-</p>
-						
-							<p><em>Update 2017-01-16 09:47:30</em><br/>
-							<p>We tracked the issue down and deployed the required fix.</p>
 
 							</p>
 						
